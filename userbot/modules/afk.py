@@ -81,8 +81,8 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(
-            f"Going AFK!\
-        \nReason: `{string}`"
+            f"Gausah nyariin yg bersangkutan \
+        \nLagi: `{string}`"
         )
     else:
         await afk_e.edit("Gausah nyariin yg bersangkutan lagi")
