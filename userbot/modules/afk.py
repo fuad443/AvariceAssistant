@@ -44,7 +44,7 @@ AFKSTR = [
     "If I were here,\nI'd tell you where I am.\n\nBut I'm not,\nso ask me when I return...",
     "I am away!\nI don't know when I'll be back!\nHopefully a few minutes from now!",
     "I'm not available right now so please leave your name, number, and address and I will stalk you later.",
-    "Sorry, I'm not here right now.\nFeel free to talk to my userbot as long as you like.\nI'll get back to you later.",
+    "Kenapa....?\nKangen ya??.\nCie kangen....",
     "I bet you were expecting an away message!",
     "Life is so short, there are so many things to do...\nI'm away doing one of them..",
     "I am not here right now...\nbut if I was...\n\nwouldn't that be awesome?",
