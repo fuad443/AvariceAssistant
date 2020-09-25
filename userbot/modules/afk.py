@@ -85,7 +85,7 @@ async def set_afk(afk_e):
         \nReason: `{string}`"
         )
     else:
-        await afk_e.edit("Going AFK!")
+        await afk_e.edit("Gausah nyariin yg bersangkutan lagi")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nYou went AFK!")
     ISAFK = True
