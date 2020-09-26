@@ -228,7 +228,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await get_readable_time((time.time() - StartTime))
-    output = ("`AvariceAssistant is running...`\n"
+    output = ("`NinjaAyam is running...`\n"
               f"------------------------------------\n"
               f"•  User             : {DEFAULTUSER}\n"
               f"•  Python           : {python_version()}\n"
