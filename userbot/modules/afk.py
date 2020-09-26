@@ -44,7 +44,7 @@ AFKSTR = [
     "If I were here,\nI'd tell you where I am.\n\nBut I'm not,\nso ask me when I return...",
     "I am away!\nI don't know when I'll be back!\nHopefully a few minutes from now!",
     "I'm not available right now so please leave your name, number, and address and I will stalk you later.",
-    "Kenapa....?\nKangen ya??.\nCie kangen....",
+    "Ikan Hiu \nMakan Tomat.\nGuwoblokk....!!",
     "I bet you were expecting an away message!",
     "Life is so short, there are so many things to do...\nI'm away doing one of them..",
     "I am not here right now...\nbut if I was...\n\nwouldn't that be awesome?",
@@ -81,11 +81,11 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(
-            f"Gausah nyariin yg bersangkutan \
+            f"Going AFK! \
         \nLagi: `{string}`"
         )
     else:
-        await afk_e.edit("Gausah nyariin yg bersangkutan lagi")
+        await afk_e.edit("Going AFK!")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nNgewe Teroos!")
     ISAFK = True
